@@ -28,9 +28,7 @@
             <div class="form__title">
                <h3 class="form__title-text">Оставьте свой отзыв на “Ароматическое саше”</h3>
             </div>
-
             <textarea name="feedback" id="feedback" class="form__text" placeholder="Ваш отзыв*" required></textarea>
-
             <div class="form__inputs-container">
                <div class="form__inputs-wrap">
                   <div class="form__wrap-content">
@@ -52,9 +50,12 @@
             </div>
             <div class="form__confirmation">
                <button class="form__button" type="submit">Отправить</button>
+               <!-- Checkbox -->
                <div class="form__checkbox-wrap">
-                  <input class="form__checkbox" type="checkbox" id="userconfirm">
-                  <label class="form__label" for="userconfirm">Сохранить моё имя, email и адрес сайта в этом браузере для последующих моих комментариев.</label>
+                  <label class="form__label" for="userconfirm">
+                     <input class="form__checkbox" type="checkbox" id="userconfirm">
+                     <span class="form__label-text">Сохранить моё имя, email и адрес сайта в этом браузере для последующих моих комментариев.</span>
+                  </label>
                </div>
             </div>
          </form>
